@@ -29,6 +29,9 @@ public class MainActivity extends ActionBarActivity
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getFragmentManager().findFragmentById(R.id.fragment_drawer);
 
+        for(int i=0;i<2;i++)
+            Toast.makeText(MainActivity.this,"Hi--",Toast.LENGTH_SHORT).show();
+
         // Set up the drawer.
         mNavigationDrawerFragment.setup(R.id.fragment_drawer, (DrawerLayout) findViewById(R.id.drawer), mToolbar);
     }
