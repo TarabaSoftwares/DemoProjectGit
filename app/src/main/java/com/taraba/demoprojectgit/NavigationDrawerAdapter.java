@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-
+//Edited by mayuri
 public class NavigationDrawerAdapter extends RecyclerView.Adapter<NavigationDrawerAdapter.ViewHolder> {
 
     private List<NavigationItem> mData;
